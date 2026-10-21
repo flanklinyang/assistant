@@ -1,0 +1,21 @@
+个人事务智能助手 3.0-Astra
+
+解压整个文件夹后再运行，不要只抽出单个 py 文件。
+
+Windows：
+1. 安装 Python 3.10 或更高版本，安装时勾选 Add python.exe to PATH。
+2. 双击 start_web.bat。第一次会自动安装依赖。
+3. 浏览器打开 http://127.0.0.1:7860
+4. 命令行版双击 start_cli.bat，输入 quit 退出。
+
+macOS / Linux：
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  python app.py
+
+解压后把 .env.example 复制成 .env，在 DEEPSEEK_API_KEY 后面填上你的 DeepSeek 密钥。
+不填密钥时，固定句式仍然可以管理待办和查天气。
+
+自检：
+  python -m pytest -q

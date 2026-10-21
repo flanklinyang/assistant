@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# 虚拟环境
+.venv/
+venv/
+
+# 测试与覆盖率
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# 环境变量（.env.example 为模板，需提交）
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 运行时生成的数据
+todos.db
+todos_export.md
+agent-tools/
+
+# 打包产物
+Astra-个人事务智能助手.zip
