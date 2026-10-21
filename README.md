@@ -215,7 +215,7 @@ python -m pytest -q
 
 ## 五、GitHub 链接
 
-（待补充：https://github.com/...）
+https://github.com/flanklinyang/assistant
 
 ---
 
